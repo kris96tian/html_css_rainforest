@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+</head>
+<style>
+	body {
+		font-family: 'Roboto', sans-serif;
+	}
+	h2 {
+		font-size: 18px; /* Kleinere Schrift für Überschriften */
+	}
+	.discussion-preview {
+		font-size: 14px; /* Kleinere Schrift für Diskussionen */
+		margin-bottom: 20px; /* Abstand zwischen Diskussionen erhöhen */
+	}
+	.discussion-meta a {
+		text-decoration: none; /* Unterstreichung von Links entfernen */
+	}
+	#stellen-sie-eine-frage {
+		font-size: 18px; /* Größere Schrift für diesen Abschnitt */
+	}
+</style>
+
+<body>
+	<header>Forum</header>
+	<nav id="nav-main">
+		<ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="tipps.html">Tipps für Klimaschutz</a></li>
+		  <li><a href="spenden.html">Spenden</a></li>
+	  <li><a href="forum.html">Forum</a></li>
+	  <li><a href="kontakt.html">Kontakt</a></li>
+		</ul>
+	  </nav>
+<main>
+	<article>
+		<p><strong><big>Forum</big></strong></p>
+		<section id="neueste-diskussionen">
+			<h2>Neueste Diskussionen</h2>
+			<div class="discussion-preview">
+				<h3><a href="#">Thema der Diskussion</a></h3>
+				<p>Kurze Zusammenfassung der Diskussion</p>
+				<p class="discussion-meta">Gestartet von <a href="#">Username</a> am DD.MM.YYYY um HH:MM Uhr | <a href="#">Antworten</a></p>
+			</div>
+			<!-- Weitere Diskussionen hier... -->
+		</section>
+		<section id="beliebte-diskussionen">
+			<h2>Beliebte Diskussionen</h2>
+			<div class="discussion-preview">
+				<h3><a href="#">Thema der Diskussion</a></h3>
+				<p>Kurze Zusammenfassung der Diskussion</p>
+				<p class="discussion-meta">Gestartet von <a href="#">Username</a> am DD.MM.YYYY um HH:MM Uhr | <a href="#">Antworten</a></p>
+			</div>
+			<!-- Weitere Diskussionen hier... -->
+		</section>
+		<section id="stellen-sie-eine-frage">
+			<h2>Stellen Sie eine Frage</h2>
+			<form>
+				<label for="discussion-title">Titel der Diskussion:</label><br>
+				<input type="text" id="discussion-title" name="discussion-title"><br>
+				<label for="discussion-description">Beschreibung der Diskussion:</label><br>
+				<textarea id="discussion-description" name="discussion-description"></textarea><br>
+				<input type="submit" value="Diskussion erstellen">
+			</form>
+		</section>
+	</article>
+</main>
+<footer>
+	<nav id="nav-bottom">
+		<ul>
+			<li><a href="impressum.html">Impressum</a></li>
+			<li><a href="datenschutz.html">Datenschutz</a></li>
+		</ul>
+	</nav>
+	<p>© 2023 Protect the Rainforest</p>
+</footer>
+</body>
+</html>
+
